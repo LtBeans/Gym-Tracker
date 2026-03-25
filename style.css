@@ -96,16 +96,23 @@
     }
     .button-row button { width: auto; }
     .stats {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 12px;
-      margin-top: 18px;
-    }
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 18px;
+}
+
+@media (max-width: 600px) {
+  .stats {
+    grid-template-columns: 1fr;
+  }
+}
     .stat {
       background: #121722;
       border: 1px solid var(--border);
       border-radius: 16px;
       padding: 16px;
+        min-width: 0;
     }
     .stat .label { color: var(--muted); font-size: .9rem; }
     .stat .value {
