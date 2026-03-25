@@ -61,7 +61,26 @@
   .row > div {
     width: 100%;
   }
+.row > div {
+  min-width: 0;
+}
+input {
+  overflow: hidden;
+}
+input[type="date"] {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 
+  -webkit-appearance: none;
+}
+.row input,
+.row select {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
 #sessionDate {
   width: 100%;
   min-width: 0;
