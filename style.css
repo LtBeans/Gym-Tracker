@@ -62,6 +62,11 @@
     width: 100%;
   }
 
+#sessionDate {
+  width: 100%;
+  min-width: 0;
+}
+    
   #loadWorkoutBtn {
     width: 100%;
     margin-top: 8px;
