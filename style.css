@@ -54,8 +54,19 @@
       gap: 12px;
     }
     @media (max-width: 700px) {
-      .row { grid-template-columns: 1fr 1fr; }
-    }
+  .row {
+    grid-template-columns: 1fr;
+  }
+
+  .row > div {
+    width: 100%;
+  }
+
+  #loadWorkoutBtn {
+    width: 100%;
+    margin-top: 8px;
+  }
+}
     label {
       display: block;
       font-size: .9rem;
