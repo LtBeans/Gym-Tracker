@@ -10,6 +10,7 @@
       --border: #2b3242;
       --warning: #fbbf24;
     }
+
     * { box-sizing: border-box; }
     body {
       margin: 0;
@@ -107,7 +108,15 @@
       padding: 16px;
     }
     .stat .label { color: var(--muted); font-size: .9rem; }
-    .stat .value { font-size: 1.5rem; font-weight: 800; margin-top: 6px; }
+    .stat .value {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: 6px;
+
+  white-space: normal;
+  word-break: break-word;
+  line-height: 1.2;
+}
     .badge {
       display: inline-block;
       padding: 6px 10px;
