@@ -109,14 +109,14 @@
     }
     .stat .label { color: var(--muted); font-size: .9rem; }
     .stat .value {
-  font-size: 1.5rem;
-  font-weight: 800;
-  margin-top: 6px;
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-top: 6px;
 
-  white-space: normal;
-  word-break: break-word;
-  line-height: 1.2;
-}
+      white-space: normal;
+      word-break: break-word;
+      line-height: 1.2;
+    }    
     .badge {
       display: inline-block;
       padding: 6px 10px;
